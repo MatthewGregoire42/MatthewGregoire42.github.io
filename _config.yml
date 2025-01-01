@@ -21,10 +21,8 @@ author: "Matthew Gregoire"
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Resume: "/assets/pdf/Matthew_Gregoire_Resume.pdf"
+  CV: "/assets/pdf/Matthew_Gregoire_CV.pdf"
 
 ################
 # --- Logo --- #
