@@ -69,39 +69,6 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  bluesky: yournameRun actions/jekyll-build-pages@v1
-/usr/bin/docker run --name ghcrioactionsjekyllbuildpagesv1013_6f69f4 --label a51ea8 --workdir /github/workspace --rm -e "INPUT_SOURCE" -e "INPUT_DESTINATION" -e "INPUT_FUTURE" -e "INPUT_BUILD_REVISION" -e "INPUT_VERBOSE" -e "INPUT_TOKEN" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_ID_TOKEN_REQUEST_URL" -e "ACTIONS_ID_TOKEN_REQUEST_TOKEN" -e "ACTIONS_RESULTS_URL" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/matthewgregoire42.github.io/matthewgregoire42.github.io":"/github/workspace" ghcr.io/actions/jekyll-build-pages:v1.0.13
-fatal: detected dubious ownership in repository at '/github/workspace'
-To add an exception for this directory, call:
-
-	git config --global --add safe.directory /github/workspace
-Bundler can't satisfy your Gemfile's dependencies.
-Install missing gems with `bundle install`.
-Warning: The github-pages gem can't satisfy your Gemfile's dependencies. If you want to use a different Jekyll version or need additional dependencies, consider building Jekyll site with GitHub Actions: https://jekyllrb.com/docs/continuous-integration/github-actions/
-/usr/local/lib/ruby/3.3.0/psych/parser.rb:62:in `_native_parse': (/github/workspace/./_config.yml): did not find expected key while parsing a block mapping at line 13 column 1 (Psych::SyntaxError)
-	from /usr/local/lib/ruby/3.3.0/psych/parser.rb:62:in `parse'
-	from /usr/local/bundle/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:143:in `load'
-	from /usr/local/bundle/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:157:in `block in load_file'
-	from /usr/local/bundle/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:157:in `open'
-	from /usr/local/bundle/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:157:in `load_file'
-	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/configuration.rb:143:in `safe_load_file'
-	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/configuration.rb:180:in `read_config_file'
-	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/configuration.rb:207:in `block in read_config_files'
-	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/configuration.rb:205:in `each'
-	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/configuration.rb:205:in `read_config_files'
-	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll.rb:113:in `configuration'
-	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/command.rb:43:in `configuration_from_options'
-	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:29:in `process'
-	from /usr/local/bundle/gems/github-pages-232/bin/github-pages:70:in `block (3 levels) in <top (required)>'
-	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
-	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
-	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
-	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
-	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
-	from /usr/local/bundle/gems/github-pages-232/bin/github-pages:6:in `<top (required)>'
-	from /usr/local/bundle/bin/github-pages:25:in `load'
-	from /usr/local/bundle/bin/github-pages:25:in `<main>'
-Error:  Logging at level: debug github-pages 232 | Error: (/github/workspace/./_config.yml): did not find expected key while parsing a block mapping at line 13 column 1 
-0s
   ORCID: "0000-0003-1663-4932"
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
