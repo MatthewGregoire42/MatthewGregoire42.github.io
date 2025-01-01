@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: Matthew Gregoire
+title: "Matthew Gregoire"
 
 # Your name to show in the footer
-author: Matthew Gregoire
+author: "Matthew Gregoire"
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -52,10 +52,10 @@ round-avatar: true
 social-network-links:
   email: "matthew@igregoire.com"
 # rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  github: MatthewGregoire42
+  github: "MatthewGregoire42"
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
- linkedin: matthewgregoire
+ linkedin: "matthewgregoire"
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -69,7 +69,7 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  bluesky: yourname
- ORCID: 0000-0003-1663-4932
+ ORCID: "0000-0003-1663-4932"
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
