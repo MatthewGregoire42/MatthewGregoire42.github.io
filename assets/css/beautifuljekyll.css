@@ -770,6 +770,13 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   .intro-header.big-img .img-desc {
     font-size: 0.875rem;
   }
+
+  .intro-header .page-heading .page-subheading {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
 }
 
 #header-gh-btns {
